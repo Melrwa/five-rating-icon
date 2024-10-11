@@ -1,0 +1,86 @@
+ body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .rating-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .digit-display {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .segment {
+    background-color: lightgray;
+    position: absolute;
+  }
+  
+  .horizontal {
+    width: 100px;
+    height: 20px;
+  }
+  
+  .vertical-left, .vertical-right {
+    width: 20px;
+    height: 50px;
+  }
+  
+  .vertical-left {
+    left: 0;
+  }
+  
+  .vertical-right {
+    right: 0;
+  }
+  
+  #segment1 {
+    top: 0;
+  }
+  
+  #segment2 {
+    top: 0;
+  }
+  
+  #segment3 {
+    top: 50px;
+  }
+  
+  #segment4 {
+    top: 70px;
+    
+  }
+  
+  #segment5 {
+    bottom: 10px;
+  }
+  
+  .filled {
+    background-color: gold !important;
+  }
+  
+  .rating-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .rate-btn {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .custom-alert.visible {
+    opacity: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+   
+   
